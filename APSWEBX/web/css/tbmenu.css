@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+/*Para a tabela do cabeçalho ou menu*/
+
+
+.tabelamenu { /*Quadrado de opções*/
+    margin-left: auto;
+    margin-right: auto; 
+    border: 0px solid gray;
+}
+.tabelamenu td{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #272727;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px 0 20px;
+    padding: 5px 20px 5px 20px;
+    border: 0px solid gray;
+}
+.tabelamenu caption {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #686868;
+    margin: 5px 0 5px;
+}
+.tabelamenu button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    width: 230px;
+    outline: 0;
+    font-weight: bolder;
+    background: #4CAF50;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.tabelamenu button:hover,.tabelamenu button:active,.tabelamenu button:focus {
+    background: #43A047;
+}
