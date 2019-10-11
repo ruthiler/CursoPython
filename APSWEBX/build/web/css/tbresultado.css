@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+.form { /*Quadrado de opções*/
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto ;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #CCC;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+.form label{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #dbdbdb;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.tabelaresult { /*Quadrado de opções*/
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border: none;
+    align-self: center;
+}
+.tabelaresult td{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #272727;
+    text-align: center;
+    margin: 5px 0 5px;
+    padding: 10px;
+    background: white;
+    border: 0px solid gray;
+    border-buttom: 4px;
+    
+}
+.tabelaresult td.cod {
+    white-space: pre-wrap;
+    width: 10px;
+}
+.tabelaresult td.nome {
+    width: 350px;
+}
+.tabelaresult td.telefone {
+    width: 40px;
+}
+.tabelaresult td.veiculo {
+    width: 90px;
+}
+.tabelaresult td.data {
+    width: 80px;
+}
+.tabelaresult td.hora {
+    width: 30px;
+}
+.tabelaresult td.status {
+    width: 30px;
+}
+.tabelaresult td.concluir {
+    width: 35px;
+}
+.tabelaresult td.alterar {
+    width: 35px;
+}
+.tabelaresult td.delete {
+    width: 35px;
+}
+.tabelaresult caption {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #686868;
+    margin: 5px 0 5px;
+}
+.tabelaresult button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    width: 200px;
+    outline: 0;
+    font-weight: bolder;
+    background: #4CAF50;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
